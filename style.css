@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 .container{
@@ -20,11 +21,13 @@ h1{
      font-weight: 700;
      font-size: 25px;
  }
- .top-left a{
+ .top-left a:hover{
      text-decoration: none;
      padding: 3px;
     background-color: rgb(255, 0, 119);
      color: white;
+     transition: 1s;
+
  }
  .top-players{
 display: grid;
